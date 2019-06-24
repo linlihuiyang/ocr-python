@@ -22,6 +22,7 @@ import utils
 import dataset
 from glob import glob
 import sys
+sys.setrecursionlimit(100000)
 import gc
 
 sys.path.append("..")
